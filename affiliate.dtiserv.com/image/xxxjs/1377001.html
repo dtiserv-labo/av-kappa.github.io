@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+f_redirect();
+
+function f_redirect() {
+  var arr = [
+    'https://www.adultmango.com/'
+    // 'https://livechat-ero.com/dxlive-coupon.html',
+    // 'https://avokazu.com',
+    // 'https://av-kappa.com/av/caribbeancom.html'
+  ];
+  var num = arr.length;
+  if (arr.length == 0) return false;
+
+  // 0 から (arr.length - 1) の乱数を取得
+  var num = Math.floor(Math.random() * arr.length);
+  location.href = arr[num]; // リダイレクト
+}
+</script>
+
+  </body>
+</html>
